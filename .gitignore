@@ -6,8 +6,11 @@
 # testing
 /coverage
 
-# production
+# dev
+/public
 
+#semantic
+/src/semantic
 
 # misc
 .DS_Store
