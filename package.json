@@ -45,7 +45,8 @@
     "sass-loader": "^6.0.6"
   },
   "scripts": {
-    "start": "npm run build && react-scripts start && npm run start:serve",
+    "start": "serve -s build & npm run start:serve",
+    "start:dev": "react-scripts start",
     "start:serve": "node ./api/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
