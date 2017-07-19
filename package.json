@@ -46,9 +46,10 @@
     "serve": "^6.0.2"
   },
   "scripts": {
-    "start": "npm run build && serve -s build ",
+    "start": "npm run build && serve -s build",
     "start:dev": "react-scripts start",
     "start:serve": "node ./api/index.js",
+    "heroku-postbuild": "cd api && npm start"
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
